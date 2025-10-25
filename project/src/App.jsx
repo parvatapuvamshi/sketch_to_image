@@ -25,7 +25,7 @@ function App() {
       const formData = new FormData();
       formData.append('file', file);
 
-      const response = await fetch('https://dfefe599f2c4.ngrok-free.app/generate_json', {
+      const response = await fetch('https://516d4430e86b.ngrok-free.app/generate_json', {
         method: 'POST',
         body: formData,
       });
